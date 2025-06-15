@@ -1,3 +1,8 @@
-## Agentic AI
+---
+title: career_conversation
+app_file: app.py
+sdk: gradio
+sdk_version: 5.33.2
+---
 
-1. AI Worflow Design Patterns: https://www.anthropic.com/engineering/building-effective-agents
+URL: https://huggingface.co/spaces/yachareni/career_conversation
