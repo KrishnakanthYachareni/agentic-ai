@@ -16,3 +16,21 @@
 3. Create a **Node**
 4. Create **Edges**
 5. Compile the Graph
+
+
+## Additional
+### LangSmith
+
+
+### Tools - Out of the box
+
+
+### Tools custom
+
+
+### Checkpointing
+1. The **Super Step** can be considered a single iteration over the graph nodes. Nodes that run in parallel are part of the same super-step, while nodes that run sequentially belong to seperate super steps.
+    i. The graph describes one super-step; one interaction between agents and tools to achoeve an outcome.
+    ii. Every user interaction is a fresh graph,invoke(state) call
+    iii. The reducer handles updating state a during a super-step but not between super-steps.
+2. Is to use the memory
