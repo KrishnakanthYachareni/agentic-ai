@@ -22,5 +22,20 @@
 
 
 ### MCP Core Concepts
+(The three components)
 1. **Host** is an LLM app like Claude or our Agent architecture
-2. 
+2. **MCP Client** lives inside Host and connects 1:1 to MCP Server
+3. **MCP Server** provides tools, context and prompts
+
+Example:
+- Fetch is an **MCP Server** that searches the web via a headless browser
+- You can configure **Claude Desktop**(The host) to run an MCP CLient that then launches the Fetch **MCP Server** on your computer
+
+**Notes:** 
+1. MCP Servers most often run on your box. Connecting to Remote MCP servers are less commmon.
+2. Two "Transport" mechanisms: 
+    i. **Stdio** spawns and communicates via standard input/output
+    ii. Other one is **SSE (Server Side Events)** uses HTTPS connections with streaming. (Server streams back the result to LLM). 
+    
+    iii. SSE will be useful when we use the Remote MCP Server
+    iv. When working on local we can use either of **Stdio** or **SSE**
