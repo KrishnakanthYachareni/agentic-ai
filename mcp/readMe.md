@@ -39,3 +39,21 @@ Example:
     
     iii. SSE will be useful when we use the Remote MCP Server
     iv. When working on local we can use either of **Stdio** or **SSE**
+
+
+### Check out the trace
+
+https://platform.openai.com/traces
+
+### Now take a look at some MCP marketplaces
+
+https://mcp.so
+
+https://glama.ai/mcp
+
+https://smithery.ai/
+
+https://huggingface.co/blog/LLMhacker/top-11-essential-mcp-libraries
+
+HuggingFace great community article:
+https://huggingface.co/blog/Kseniase/mcp
