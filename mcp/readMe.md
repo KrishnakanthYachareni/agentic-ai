@@ -40,6 +40,13 @@ Example:
     iii. SSE will be useful when we use the Remote MCP Server
     iv. When working on local we can use either of **Stdio** or **SSE**
 
+### Why Make an MCP Server
+1. Allow others to incorporate tools and resources
+2. Consistently incorporate all our MCP Servers
+3. Understand the plumbing (nuts and bolts)
+
+### Reasons **not** to make an MCP server
+1. If it's only for us, then we could just make tools the @function_tool decorator can make any function into a tool. (If we use MCP it should be broader usage and sharing tool)
 
 ### Check out the trace
 
